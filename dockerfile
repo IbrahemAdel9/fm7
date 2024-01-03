@@ -1,6 +1,7 @@
 FROM python:3.12
 RUN pip3 install fastapi
 RUN pip3 install uvicorn
+RUN pip3 install flusk
 RUN mkdir -p /app
 WORKDIR /app
 COPY ./main.py /app/
