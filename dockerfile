@@ -1,4 +1,5 @@
 FROM python:3.12
+RUN sudo apt update
 RUN pip3 install fastapi
 RUN pip3 install uvicorn
 RUN pip3 install flusk
